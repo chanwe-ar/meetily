@@ -79,3 +79,12 @@ experiments/
 target/
 
 frontend/src-tauri/binaries/
+
+# Local environment files; only the reviewed example templates are versioned.
+.env
+.env.*
+!/.env.build.example
+!/.env.ci.example
+!/.env.example
+!/.env.system.example
+!/frontend/.env.example
